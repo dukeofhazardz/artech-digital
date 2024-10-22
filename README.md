@@ -10,8 +10,8 @@ This project is a web application that consists of a **React frontend** and a **
 
 To run this project locally, you’ll need the following:
 
-- **Python 3.8+** (for the backend)
-- **Node.js 14+** (for the frontend)
+- **Python 3.12+** (for the backend)
+- **Node.js 20+** (for the frontend)
 - **FastAPI** framework
 - **npm** package manager
 - **pip** (Python package installer)
@@ -100,7 +100,7 @@ Here’s an overview of the key directories and files in the project:
 │
 ├── portfolio-backend/
 │   ├── main.py                  # FastAPI app and route definitions
-│   ├── db.py            `       # Project data definition
+│   ├── db.py                    # Project data definition
 │   ├── requirements.txt         # Python dependencies
 │   └── start.sh                 # Shell script to run the FastAPI server
 │
