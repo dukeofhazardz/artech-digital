@@ -8,7 +8,7 @@ app = FastAPI()
 app.mount("/images", StaticFiles(directory="images"), name="images")
 
 origins = [
-    "http://localhost:3000",
+    "https://artech-digital-portfolio.vercel.app",
 ]
 
 app.add_middleware(

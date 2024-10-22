@@ -6,6 +6,12 @@ This project is a web application that consists of a **React frontend** and a **
 
 ---
 
+## Deployment
+
+Project is live at: https://artech-digital-portfolio.vercel.app
+
+---
+
 ## Prerequisites
 
 To run this project locally, you’ll need the following:

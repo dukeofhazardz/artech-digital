@@ -5,7 +5,7 @@ import placeholderImg from "../assets/placeholder-img.jpg";
 import readMore from "../assets/more.svg";
 
 const ProjectDetail = () => {
-  const baseURL = "http://localhost:8000";
+  const baseURL = "https://portfolio-backend-gamma-drab.vercel.app";
   const location = useLocation();
   const { project, projects } = location.state || {};
 

@@ -8,7 +8,7 @@ import arrowLeft from "../assets/arrow-left.svg";
 import arrowRight from "../assets/arrow-right.svg";
 
 const Projects = () => {
-  const baseURL = "http://localhost:8000";
+  const baseURL = "https://portfolio-backend-gamma-drab.vercel.app";
   const scrollRef = useRef(null);
   const [projects, setProjects] = useState([]);
 
