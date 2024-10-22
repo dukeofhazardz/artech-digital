@@ -1,10 +1,14 @@
 from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
+from db import projects as project_data
 
 app = FastAPI()
 
+app.mount("/images", StaticFiles(directory="images"), name="images")
+
 origins = [
-    "http://localhost:5173",
+    "http://localhost:3000",
 ]
 
 app.add_middleware(
@@ -21,4 +25,4 @@ async def projects():
     """
     Endpoint for providing project data for Artech Digital.
     """
-    return {}
+    return project_data
